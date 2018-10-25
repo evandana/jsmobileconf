@@ -4,7 +4,7 @@
 
 ## Planned Sessions
 
-1. Evolution of the JavaScript, Todd Anglin, Progress
+1. [Evolution of the JavaScript, Todd Anglin, Progress](./evolution-of-js.md)
 1. Responsive Design: Beyond Our Devices, Ethan Marcotte, Independent web designer
 1. JavaScript Binary Data
 1. One Project. One Language. Three Apps
