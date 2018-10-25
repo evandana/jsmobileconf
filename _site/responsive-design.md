@@ -35,4 +35,29 @@ Input Method
 
 aka Pattern Library
 
-- 
+### History
+
+- Starbucks released a pattern library (2007?)
+- ushahidi pattern library
+
+### Benefits
+
+- Bridges collaboration gap (design / engineers)
+- Onboarding facilitation
+- In-browser design review
+- Central, shared repository
+
+### Steps
+
+1. Create visual inventory
+    - Review what is, and categorize it
+1. Name and organize (items and categories)
+    - Naming should make it findable
+1. Translate to HTML & CSS
+
+Tools: Susan Roberts has a guide
+
+[Atomic Design](http://atomicdesign.bradfrost.com/)
+
+> A style guide's success hinges on the team's unanimous adoption of the *words* and *language* used
+
