@@ -55,9 +55,16 @@ aka Pattern Library
     - Naming should make it findable
 1. Translate to HTML & CSS
 
+### Tools and Adoption Methods
+
 Tools: Susan Roberts has a guide
 
 [Atomic Design](http://atomicdesign.bradfrost.com/)
 
-> A style guide's success hinges on the team's unanimous adoption of the *words* and *language* used
+> A style guide's success hinges on the team's unanimous adoption of the **words** and **language** used
 
+Design System = Design Patterns + Design Principles
+
+### Mobile is not just for phones
+
+- Google Glass and other stabilizing devices
