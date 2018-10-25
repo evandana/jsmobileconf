@@ -19,3 +19,10 @@
 ## Projects
 
 - [NativeScript research](./nativescript.md)
+
+## TakeAways
+
+## ToDo
+
+- [ ] Project with NativeScript
+- [ ] Project with ProtoBuffers

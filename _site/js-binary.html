@@ -44,6 +44,71 @@
       <section>
         <h1 id="javascript-binary-data">JavaScript Binary Data</h1>
 
+<p><a href="kirjs.com/binary/0">follow along presentation</a></p>
+
+<p>Kir, Firebase</p>
+
+<h2 id="binaries">Binaries</h2>
+
+<p>e.g. GIFs</p>
+
+<ol>
+  <li>Look at simple gif code: <code class="highlighter-rouge">GIF89añ...</code></li>
+  <li>Read as binary, adding spacing</li>
+</ol>
+
+<h2 id="gifs-binary-explained">GIFs Binary Explained</h2>
+
+<ol>
+  <li>Header</li>
+  <li>Palette</li>
+  <li>Extensions</li>
+  <li>Semicolon character</li>
+</ol>
+
+<h2 id="converting-binary--decimal--hex">Converting: Binary | Decimal | Hex</h2>
+
+<ul>
+  <li>Binary to Decimal: <code class="highlighter-rouge">parseInt('1010101',2)</code> =&gt; <code class="highlighter-rouge">85</code></li>
+  <li>Decimal to Binary: <code class="highlighter-rouge">(1212).toString(2)</code> =&gt; <code class="highlighter-rouge">10010111100</code></li>
+  <li>Binary to Hex: <code class="highlighter-rouge">parseInt('01010101', 2).toString(16)</code> =&gt; <code class="highlighter-rouge">55</code></li>
+  <li>Hex to Binary: <code class="highlighter-rouge">parseInt('FEFEFE', 16).toString(2)</code> =&gt; <code class="highlighter-rouge">111111101111111011111110</code></li>
+</ul>
+
+<h2 id="unicode">Unicode</h2>
+
+<ul>
+  <li>Char to Unicode: <code class="highlighter-rouge">'lol'.charCodeAt(0)</code> =&gt; <code class="highlighter-rouge">108</code></li>
+  <li>Unicode to Char: <code class="highlighter-rouge">String.fromCharCode(108)</code> =&gt; <code class="highlighter-rouge">l</code></li>
+</ul>
+
+<h2 id="more-references">More References</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Check out GIF binary generator</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Graphic Interchage Format standard</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="http://giflib.sourceforge.net/whatsinagif/bits_and_bytes.html">GIF Reference</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="https://github.com/davisonio/awesome-gif/blob/master/README.md">GIF Editors</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="https://www.onlinehexeditor.com/">Online Hex Editor</a></li>
+</ul>
+
+<h2 id="binary-parser"><a href="https://www.npmjs.com/package/binary-parser">Binary Parser</a></h2>
+
+<h2 id="binary-instead-of-json">Binary instead of JSON</h2>
+
+<h3 id="existing-solutions">Existing solutions</h3>
+
+<ul>
+  <li>Google ProtoBuffers</li>
+  <li>Flatbuffers</li>
+  <li>Thrift (Apache/Facebook)</li>
+</ul>
+
+<h2 id="bonus">Bonus</h2>
+
+<ul>
+  <li>Java class files (in binary) start with <code class="highlighter-rouge">CAFEBABE</code></li>
+</ul>
 
       </section>
 
