@@ -68,7 +68,7 @@ Jen Looper, Progress and Founder & CEO of Vue Vixens
 
 ### Make it easy
 
-- [Clarifai](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiSntHSlKLeAhUNisgKHZ6ACKkYABAAGgJxdQ&ohost=www.google.com&cid=CAESQeD2C468iYe7jtfAUZAxtch54OzfkRqgKrPXhjfJuFYqIvLnelcdiqVG0fyPvGoyJNDn6Rczf1METKlXvRzcp19p&sig=AOD64_3qiEWgxt-q2wv3LFwI6mNh9fjN9Q&q=&ved=2ahUKEwih3MrSlKLeAhXBzVMKHcX7DfkQ0Qx6BAgFEAI&adurl=) (image recognition)
+- [Clarifai](www.clarifai.com/‎) (image recognition)
 - Google Cloud Platform
 - On your device with a plugin...
     - Offline

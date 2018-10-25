@@ -12,6 +12,9 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 - ML Kit + Firebase makes intro to ML easy
 - FaaS is just GCP Cloud Functions: make 'em simple and pure
 - Move static assets to CDN and route APIs to Faas to save $
+- Many offline tools exist for various scenarios, but conflict resolution is hard (do it at data store layer)
+- Use gethuman.com to skip wait times at call centers
+- For lean building, focus on real product with only core features (test and iterate!)
 
 
 ## ToDo
