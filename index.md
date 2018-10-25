@@ -5,6 +5,15 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 > "[jsMobileConf](https://jsmobileconf.com/) is a two-day, two-track, developer event focused on mobility and the cutting-edge JavaScript ecosystem."
 
 
+## TakeAways
+
+- If you need benefits of binary, there are tons of tools to make it less "scary"
+- If native is important, use NativeScript or React Native
+- ML Kit + Firebase makes intro to ML easy
+- FaaS is just GCP Cloud Functions: make 'em simple and pure
+- Move static assets to CDN and route APIs to Faas to save $
+
+
 ## ToDo
 
 - [ ] Project with NativeScript
@@ -16,15 +25,6 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 
 - [w/ NativeScript](./nativescript.md) ([project](https://play.nativescript.org/?template=play-tsc&id=4IHGEI))
 - w/ React Native ([project](https://codesandbox.io/s/q4qymyp2l6))
-
-
-## TakeAways
-
-- If you need benefits of binary, there are tons of tools to make it less "scary"
-- If native is important, use NativeScript or React Native
-- ML Kit + Firebase makes into to ML easy
-- FaaS is just GCP Cloud Functions: make 'em simple and pure
-- Move static assets to CDN and route APIs to Faas to save $
 
 
 ## Sessions

@@ -44,6 +44,161 @@
       <section>
         <h1 id="building-rich-offline-apps">Building Rich Offline Apps</h1>
 
+<p>Tejas Ranade (Director of Product, Kinvey)</p>
+
+<p>Kinvey ~= Firebase / Parse</p>
+
+<ul>
+  <li>Look at app storage on your mobile, many major apps store lots of data to enable offline</li>
+</ul>
+
+<h2 id="take-aways">Take Aways</h2>
+
+<ul>
+  <li>Abstract service adapter layer to determine if saving locally or remotely?</li>
+  <li>Conflict resolution is hard</li>
+  <li>Not one-size-fits-all. Implement policies and abstraction as appropriate for data use</li>
+</ul>
+
+<h2 id="use-cases">Use Cases</h2>
+
+<ul>
+  <li>Short period of intermittent data – MBTA Redline</li>
+  <li>Long periods of data disconnect – Construction management or Traveling abroad</li>
+</ul>
+
+<h2 id="landscape">Landscape</h2>
+
+<ul>
+  <li>Data persistence
+    <ul>
+      <li>Simple/small data</li>
+      <li>Complex/large data</li>
+    </ul>
+  </li>
+  <li>Data synchronization</li>
+</ul>
+
+<p>Not covered in presentation</p>
+
+<ul>
+  <li>Asset Caching / Caching API</li>
+  <li>Service Workers</li>
+</ul>
+
+<h2 id="offline-storage-options">Offline Storage Options</h2>
+
+<ul>
+  <li>iOS &amp; Android
+    <ul>
+      <li>File storage</li>
+      <li>SQLite
+        <ul>
+          <li>Self contained</li>
+          <li>Reliable</li>
+          <li>Familiar syntax</li>
+          <li>Adapters
+            <ul>
+              <li>Swift wrappers (iOS)</li>
+              <li>Room Persistence Library (Android)</li>
+              <li>Plugins for JS platforms</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Realm
+        <ul>
+          <li>Open source cross-platform database across iOS, Android, Xamarin, and Node</li>
+          <li>Encryption</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Web
+    <ul>
+      <li>Local Storage
+        <ul>
+          <li>5mb max</li>
+          <li>Key/val store</li>
+          <li>Strings only</li>
+          <li>Synchronous</li>
+        </ul>
+      </li>
+      <li>Cookies</li>
+      <li>IndexedDB
+        <ul>
+          <li>Summary
+            <ul>
+              <li>Optimized for large data</li>
+              <li>Complex data</li>
+              <li>Async</li>
+              <li>Transactional</li>
+            </ul>
+          </li>
+          <li>Feaure: Cursors (iterator)</li>
+        </ul>
+      </li>
+      <li>Alternatives
+        <ul>
+          <li>Dexie.js - IndexedDB wrapper</li>
+          <li>localForage</li>
+          <li>JsStore</li>
+          <li>PouchDB</li>
+          <li>LokiJS
+            <ul>
+              <li>Fast in-memory DB</li>
+              <li>Run in Node, NativeScript, Cordova, browser</li>
+              <li>Open source document-oriented db written in JS</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="data-synchronization">Data Synchronization</h2>
+
+<ul>
+  <li>Policy
+    <ul>
+      <li>Offline first?</li>
+      <li>Online attempt first?</li>
+      <li>Offline followed by online?</li>
+    </ul>
+  </li>
+  <li>Sync Problems
+    <ul>
+      <li>Only retrieve <strong>changes</strong></li>
+      <li>Performance <strong>and</strong> scale (sync, batching, etc)</li>
+      <li>Conflict resolution
+        <ul>
+          <li>Nuanced - use case dictates the solution</li>
+          <li>Usually the backend systems (data stores) have conflict resolution policies</li>
+          <li>Write the conflict resolution on the data stores</li>
+          <li>Give user meaningful response</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Network APIs
+    <ul>
+      <li><code class="highlighter-rouge">navigator.onLine</code></li>
+      <li>Network Information API: <code class="highlighter-rouge">(navigator.connection || navigator.mozConnection || navigator.webkitConnection).addEventListener("change", () =&gt; { ... })</code></li>
+      <li>These APIs are flakey. False negatives are likely.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="considerations-when-implementing-offline">Considerations when Implementing Offline</h2>
+
+<ul>
+  <li>Level of abstraction necessary</li>
+  <li>Amount of data being consumed</li>
+  <li>Data sync policies</li>
+  <li>Platform support</li>
+</ul>
+
       </section>
 
       <footer>
