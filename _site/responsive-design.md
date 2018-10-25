@@ -8,3 +8,31 @@ Ethan Marcotte, Independent web designer
 
 - Moving from *Pages* to *Patterns*
 - Think of it as a network of content
+
+## What if someone doesn't browse the web like I do?
+
+- Various sizes
+- Auditory
+
+### Design the priority not the layout
+
+CSS Feature Queries: `@supports ( display: flex ) {...}`
+
+### Designing for modern web
+
+- Device agnostic
+- Web's inherent variability (browser's variability)
+
+Input Method
+
+- Touch
+- Keyboard/Mouse
+- Hybrid
+- Speech
+- Joystick/Analog
+
+## Style Guide
+
+aka Pattern Library
+
+- 
