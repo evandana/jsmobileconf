@@ -11,6 +11,7 @@ TJ VanToll (@tjvantoll), Progress
 - [React Native](http://www.reactnative.com/)
 - [NativeScript](https://www.nativescript.org/)
 
+
 ## Background
 
 [Web VS Native](https://www.progress.com/blogs/choose-between-progressive-web-apps-react-native-nativescript-2018)
@@ -19,8 +20,17 @@ TJ VanToll (@tjvantoll), Progress
 - Web: 2.2x more monthly **unique** visitors than average mobile app
 
 
+## TakeAway
 
-### Approaches
+- NativeScript
+    - Bifurcated code
+    - Angular
+- React Native
+    - React
+    - Simpler
+
+
+## Approaches
 
 - Both
     - Markup is **not** HTML
