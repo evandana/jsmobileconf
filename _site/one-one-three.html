@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>One Project. One Language. Three Apps. | jsmobileconf</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="One Project. One Language. Three Apps." />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/one-one-three.html" />
+<meta property="og:url" content="http://localhost:4000/one-one-three.html" />
+<meta property="og:site_name" content="jsmobileconf" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/one-one-three.html","headline":"One Project. One Language. Three Apps.","@type":"WebPage","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=889dd3432685bc135b2ffbbe3662c05d32e2b2fe">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">jsmobileconf</h1>
+        <p class="header"></p>
+
+        <ul>
+          
+          <li><a class="buttons github" href="http://github.com/evandana/jsmobileconf">View On GitHub</a></li>
+        </ul>
+
+        
+          <p class="header">This project is maintained by <a class="header name" href="http://github.com/evandana">evandana</a></p>
+        
+
+        
+      </header>
+
+      <section>
+        <h1 id="one-project-one-language-three-apps">One Project. One Language. Three Apps.</h1>
+
+<p>TJ VanToll (@tjvantoll), Progress</p>
+
+<ul>
+  <li>iOS</li>
+  <li>Web</li>
+  <li>Android</li>
+</ul>
+
+<p><strong>Solutions</strong></p>
+
+<ul>
+  <li><a href="http://www.reactnative.com/">React Native</a></li>
+  <li><a href="https://www.nativescript.org/">NativeScript</a></li>
+</ul>
+
+<h2 id="background">Background</h2>
+
+<p><a href="https://www.progress.com/blogs/choose-between-progressive-web-apps-react-native-nativescript-2018">Web VS Native</a></p>
+
+<ul>
+  <li>Native Apps: 90% of <strong>time</strong> on phones, 77% of <strong>time</strong> on tablets</li>
+  <li>Web: 2.2x more monthly <strong>unique</strong> visitors than average mobile app</li>
+</ul>
+
+<h3 id="approaches">Approaches</h3>
+
+<ul>
+  <li>Both
+    <ul>
+      <li>Markup is <strong>not</strong> HTML</li>
+      <li>Support Flexbox</li>
+      <li>CSS irregularities: <code class="highlighter-rouge">float</code> and <code class="highlighter-rouge">display</code> are tough to work into Native</li>
+    </ul>
+  </li>
+  <li>React Native Web
+    <ul>
+      <li>Getting started: use the <a href="https://codesandbox.io/s/q4qymyp2l6">Code Sandbox</a></li>
+      <li>Use API from “react-native” library (e.g. <code class="highlighter-rouge">&lt;SafeAreaView&gt;</code> instead of <code class="highlighter-rouge">&lt;div&gt;</code>)</li>
+      <li><code class="highlighter-rouge">fetch</code> method done with <strong>Native</strong> API (web, iOS, Android)</li>
+      <li>Example of bifurcation of features: Offline
+        <ul>
+          <li>Web: <code class="highlighter-rouge">localstorage</code></li>
+          <li>Mobile: files</li>
+          <li>Solutions:
+            <ol>
+              <li>Conditional logic (different code block or file)</li>
+              <li><code class="highlighter-rouge">AsyncStorage</code> from “react-native”</li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+      <li>Generated code is UGLY (massive nesting and class lists)</li>
+      <li><a href="https://github.com/necolas/react-native-web#user-content-components">Compatibility from Native to Web</a></li>
+      <li>Same components rendering to all three</li>
+    </ul>
+  </li>
+  <li>NativeScript Schematics
+    <ul>
+      <li>“schematics” means extension API for building for all three platforms</li>
+      <li>Use Angular CLI
+        <ul>
+          <li>Preview Web: <code class="highlighter-rouge">ng serve</code></li>
+          <li>Android: <code class="highlighter-rouge">tns run android --hmr</code></li>
+          <li>iOS: <code class="highlighter-rouge">tns run ios --hmr</code></li>
+        </ul>
+      </li>
+      <li>Fork markup and styles for each platform (web and mobile)</li>
+      <li>Supports SASS</li>
+      <li>Platform feature bifurcation
+        <ol>
+          <li>Define a common component name (e.g. ‘bifurcHelper’)</li>
+          <li>Platform-specific files get unique implementation details for this</li>
+        </ol>
+      </li>
+      <li><a href="https://market.nativescript.org/">Marketplace</a></li>
+    </ul>
+  </li>
+</ul>
+
+      </section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
