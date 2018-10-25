@@ -11,7 +11,7 @@
 1. Human VS AI
 1. Building Rich Offline Apps
 1. Lean Native
-1. Micro Apps – Breaking the Mobile App Monolith and Delivering Omnichannel Experiences || Building Progressive (Web) Apps
+1. Micro Apps – Breaking the Mobile App Monolith and Delivering Omnichannel Experiences –OR– Building Progressive (Web) Apps
 1. Machine Learning on the Go with TensofFlow.js
 1. Machine Powered Refactoring
 1. Machine Learning Capabilities for Mobile Apps
