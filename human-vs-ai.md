@@ -82,7 +82,7 @@ Jen Looper, Progress and Founder & CEO of Vue Vixens
 - Pre-trained model
 
 
-## [DEMO](https://github.com/jlooper/picme) with Vue and NativeScript
+## [DEMO](https://github.com/jlooper/picme) with Vue and NativeScript   
 
 ### Tools
 

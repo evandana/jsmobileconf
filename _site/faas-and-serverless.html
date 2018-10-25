@@ -44,6 +44,105 @@
       <section>
         <h1 id="the-faas-and-the-serverless">The FaaS and the Serverless</h1>
 
+<p>Simon MacDonald (@macdonst)</p>
+
+<p>puns! (not jokes, because they’re not good)</p>
+
+<h2 id="summary">Summary</h2>
+
+<ul>
+  <li>Stateless (no dependency other than input)</li>
+  <li>Pure (no side effects)</li>
+  <li>One task per function (use <code class="highlighter-rouge">compose</code> if necessary)</li>
+  <li>Use events to fire off sequences of functions</li>
+</ul>
+
+<h3 id="gotchas">Gotchas</h3>
+
+<ul>
+  <li>No caching!
+    <ul>
+      <li>Because function spun up and torn down at end of function</li>
+    </ul>
+  </li>
+  <li>Logging?
+    <ul>
+      <li>Offered per vendor</li>
+    </ul>
+  </li>
+  <li>Cloud functions are not in memory, may require some spin up time
+    <ul>
+      <li>Quick for Node (and other interpreted languages)</li>
+      <li>Slow for Java (and other compiled languages)</li>
+    </ul>
+  </li>
+  <li>Security?
+    <ul>
+      <li>HIPAA compliance possible per vendor</li>
+    </ul>
+  </li>
+  <li>Benefit for mid-tier use case
+    <ul>
+      <li>Unbounded scaling</li>
+    </ul>
+  </li>
+  <li>Harder to debug series of functions instead of monolith</li>
+</ul>
+
+<h2 id="faas">FaaS</h2>
+
+<h3 id="do-one-thing-and-do-it-well">Do one thing, and do it well</h3>
+
+<ul>
+  <li>Fetch</li>
+  <li>Process</li>
+  <li>Transform</li>
+  <li>UI</li>
+</ul>
+
+<h3 id="compose">Compose</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">return compose(func1, func2, func3)</code></li>
+</ul>
+
+<h3 id="events-lamda">Events (lamda)</h3>
+
+<ul>
+  <li>Git commit</li>
+  <li>Database action</li>
+  <li>cron job</li>
+  <li>Blob storage</li>
+  <li>Analytics</li>
+</ul>
+
+<h2 id="serverless">Serverless</h2>
+
+<h3 id="products">Products</h3>
+
+<ul>
+  <li>IBM BlueMix Openwisk</li>
+  <li>Exert cloud functions</li>
+  <li>AWS Lamda</li>
+  <li>GCP Cloud Functions</li>
+</ul>
+
+<h3 id="layers">Layers</h3>
+
+<ul>
+  <li>Code (FaaS)</li>
+  <li>Containers (SaaS/PaaS)</li>
+  <li>Infrastructure (IaaS)</li>
+  <li>Scaling</li>
+</ul>
+
+<h2 id="convert-spa-to-serverless">Convert SPA to Serverless</h2>
+
+<ul>
+  <li>Static assets (HTML, CSS, JS) =&gt; CDN</li>
+  <li>Routes =&gt; Cloud Functions</li>
+</ul>
+
       </section>
 
       <footer>
