@@ -4,18 +4,20 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 
 > "[jsMobileConf](https://jsmobileconf.com/) is a two-day, two-track, developer event focused on mobility and the cutting-edge JavaScript ecosystem."
 
-
 ## TakeAways
 
-- If you need benefits of binary, there are tons of tools to make it less "scary"
-- If native is important, use **NativeScript or React Native**
-- **ML Kit + Firebase** makes intro to ML easy
-- **FaaS is just GCP Cloud Functions**: make 'em simple and pure
-- Save $$ by moving **static assets to CDN** and route APIs to FaaS
-- Many tools exist for handling various **offline** scenarios, but conflict resolution is hard (do it at data store layer)
-- Use **[gethuman.com](https://gethuman.com)** to skip wait times at call centers
-- For lean app SDLC, focus on real product with only core features (test and iterate!)
-- Guide the direction of JS: It's easy and cheap to **become a member of Ecma**
+<!-- - () ([ref](./evolution-of-js.md)) -->
+<!-- - () ([ref](./responsive-design.md)) -->
+- If you need benefits of binary, there are tons of tools to make it less "scary" ([ref](./js-binary.md))
+- If native is important, use **NativeScript or React Native** ([ref](./one-one-three.md))
+- **ML Kit + Firebase** makes intro to ML easy ([ref](./human-vs-ai.md))
+- **FaaS is just GCP Cloud Functions**: make 'em simple and pure ([ref](./faas-and-serverless.md))
+- Save $$ by moving **static assets to CDN** and route APIs to FaaS ([ref](./faas-and-serverless.md))
+- Many tools exist for handling various **offline** scenarios, but conflict resolution is hard (do it at data store layer) ([ref](./building-offline.md))
+- Use **[gethuman.com](https://gethuman.com)** to skip wait times at call centers ([ref](./lean-native.md))
+- For lean app SDLC, focus on real product with only core features (test and iterate!) ([ref](./lean-native.md))
+- Guide the direction of JS: It's easy and cheap to **become a member of Ecma** ([ref](./standardizing-javascript.md))
+- Encourage employee growth to benefit your company ([ref](./building-innovation-engine.md))
 
 
 ## ToDo
