@@ -8,6 +8,11 @@ Michael Solati
 - Service Workers
 - Server Side Rendering
 - Web App Manifest
+- Set up prefetching
+
+### Questions
+
+- Can you do a deep link into a PWA (like a native app)?
 
 
 ## Should Be
