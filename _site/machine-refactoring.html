@@ -16,7 +16,7 @@
 {"url":"http://localhost:4000/machine-refactoring.html","headline":"Machine Powered Refactoring","@type":"WebPage","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=ed9daac5d48c4de0f26216a1a4f97730b1e7971a">
+    <link rel="stylesheet" href="/assets/css/style.css?v=8258b8c775e90124e2e420237c6ffc7e01b9fe8e">
     <script src="/assets/js/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -43,6 +43,100 @@
 
       <section>
         <h1 id="machine-powered-refactoring">Machine Powered Refactoring</h1>
+
+<p>Amal Hussein, Bocoup</p>
+
+<ul>
+  <li>Web Platform Podcast</li>
+  <li>Love unit testing</li>
+</ul>
+
+<h3 id="themes">Themes</h3>
+
+<ul>
+  <li>“Rapid innovation comes with price”</li>
+  <li>“A plea for <del>better</del> <strong>prioritization</strong> of application maintenance”</li>
+</ul>
+
+<h2 id="application-maintenance-dilemmas">Application Maintenance Dilemmas</h2>
+
+<ul>
+  <li>Code cruft</li>
+  <li>Aging and shifting dependencies</li>
+  <li>Growing and unruly code bases</li>
+  <li>Insufficient unit and integration test coverage</li>
+</ul>
+
+<p><img src="https://i.redd.it/tfugj4n3l6ez.png" alt="node module weight" /></p>
+
+<h2 id="abstract-syntax-trees-asts">Abstract Syntax Trees (ASTs)</h2>
+
+<ul>
+  <li><a href="astexplorer.net">astexplorer.net</a></li>
+  <li>“n computer science, an abstract syntax tree (AST), or just syntax tree, is a tree representation of the abstract syntactic structure of source code written in a programming language. Each node of the tree denotes a construct occurring in the source code.” - <a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree">wikipedia</a></li>
+</ul>
+
+<p><img src="https://slideplayer.com/slide/5087012/16/images/2/Abstract+Syntax+Tree+%2B+%2A+if-statement+if-statement+can+become+IF+cond.jpg" alt="ast" /></p>
+
+<h3 id="compilers">Compilers</h3>
+
+<p><img src="http://creativejs.com/wp-content/uploads/2013/05/Compiler-architecture.png" alt="compiler" /></p>
+
+<h3 id="ast-compilers-power-our-tools">AST Compilers power our tools</h3>
+
+<ul>
+  <li>Babel
+    <ul>
+      <li>100% volunteer</li>
+      <li><img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1459949808babel.png" alt="babel" /></li>
+      <li><a href="https://www.sitepoint.com/understanding-asts-building-babel-plugin/">Understanding Babel</a></li>
+      <li><a href="https://github.com/kentcdodds/babel-plugin-preval">preval</a>
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  const x = preval`module.exports = 1`
+
+  //      ↓ ↓ ↓ ↓ ↓ ↓
+
+  const x = 1
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>Lint
+    <ul>
+      <li>JSHint
+        <ul>
+          <li>https://addyosmani.com/blog/fixmyjs/</li>
+          <li><img src="https://addyosmani.com/assets/jshint.png" alt="image" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Istanbul</li>
+</ul>
+
+<h2 id="automate-pyramid-on-defect-patterns-of-defense">Automate Pyramid on Defect (Patterns of Defense)</h2>
+
+<ol>
+  <li>Write custom lint rule</li>
+  <li>Write a unit test</li>
+  <li>Write an integration test</li>
+</ol>
+
+<h2 id="use-ast-explorer">Use <a href="https://astexplorer.net/">AST Explorer</a></h2>
+
+<ul>
+  <li><a href="https://github.com/facebook/jscodeshift">jsCodeShift</a></li>
+</ul>
+
+<h2 id="questions">Questions</h2>
+
+<ul>
+  <li>Ensure that your translations don’t cause bugs
+    <ul>
+      <li>Use unit tests</li>
+      <li>Be tight with you <code class="highlighter-rouge">codemon</code>s</li>
+    </ul>
+  </li>
+</ul>
 
       </section>
 
