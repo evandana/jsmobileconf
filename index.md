@@ -18,6 +18,7 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 - For lean app SDLC, focus on real product with only core features (test and iterate!) ([ref](./lean-native.md))
 - Guide the direction of JS: It's easy and cheap to **become a member of Ecma** ([ref](./standardizing-javascript.md))
 - Encourage employee growth to benefit your company ([ref](./building-innovation-engine.md))
+- Save $$ and facilitate offline app use with service workers ([ref](./progressive-web-apps.md))
 
 
 ## ToDo
@@ -45,7 +46,7 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 1. [Lean Native](./lean-native.md)
 1. [Standardizing JavaScript, Jory Burson, Bocoup](./standardizing-javascript.md)
 1. [Building an Innovation Engine Inside Your Org, Anton Hristov, Progress](./building-innovation-engine.md)
-1. [Micro Apps – Breaking the Mobile App Monolith and Delivering Omnichannel Experiences](./microapps.md)
-1. [Machine Learning on the Go with TensofFlow.js](./tensorflow.md)
-1. [Machine Powered Refactoring](./machine-refactoring.md)
-1. [Machine Learning Capabilities for Mobile Apps](./ml-for-mobile.md)
+1. [Building Progressive (web) Apps](./progressive-web-apps.md)
+1. [Machine Learning on the Go with TensofFlow.js](./tensorflow.md) coming soon
+1. [Machine Powered Refactoring](./machine-refactoring.md) coming soon
+1. [Machine Learning Capabilities for Mobile Apps](./ml-for-mobile.md) coming soon

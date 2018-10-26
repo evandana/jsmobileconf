@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Building Progressive (web) Apps | jsmobileconf</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Building Progressive (web) Apps" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/progressive-web-apps.html" />
+<meta property="og:url" content="http://localhost:4000/progressive-web-apps.html" />
+<meta property="og:site_name" content="jsmobileconf" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/progressive-web-apps.html","headline":"Building Progressive (web) Apps","@type":"WebPage","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=ed9daac5d48c4de0f26216a1a4f97730b1e7971a">
+    <script src="/assets/js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">jsmobileconf</h1>
+        <p class="header"></p>
+
+        <ul>
+          
+          <li><a class="buttons github" href="http://github.com/evandana/jsmobileconf">View On GitHub</a></li>
+        </ul>
+
+        
+          <p class="header">This project is maintained by <a class="header name" href="http://github.com/evandana">evandana</a></p>
+        
+
+        
+      </header>
+
+      <section>
+        <h1 id="building-progressive-web-apps">Building Progressive (web) Apps</h1>
+
+<p>Michael Solati</p>
+
+<h2 id="summary">Summary</h2>
+
+<ul>
+  <li>Service Workers</li>
+  <li>Server Side Rendering</li>
+  <li>Web App Manifest</li>
+</ul>
+
+<h2 id="should-be">Should Be</h2>
+
+<ul>
+  <li>Reliable</li>
+  <li>Fast</li>
+  <li>Engaging</li>
+</ul>
+
+<h2 id="is-it-a-pwa">Is it a PWA</h2>
+
+<ul>
+  <li><a href="https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool">Lighthouse</a>!
+    <ul>
+      <li>Node module</li>
+      <li>Chrome DevTools</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="pwa-requisites">PWA Requisites</h2>
+
+<ul>
+  <li>Register Service Workers</li>
+  <li>Respond with 200 even when offline</li>
+  <li>Fallback when JS is not available</li>
+  <li>Prompt to install</li>
+  <li>Custom splash screen</li>
+  <li>Finish rendering within 5s (for SEO crawling)</li>
+  <li>Address bar color matches brand colors</li>
+  <li>Caching</li>
+  <li>Push notifications</li>
+</ul>
+
+<h2 id="make-it-reliable-service-workers">Make it Reliable: <strong>Service Workers</strong></h2>
+
+<ul>
+  <li>Caches data for offline use</li>
+  <li><a href="https://developers.google.com/web/fundamentals/primers/service-workers/">Google Service Workers</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">MDN Service Worker API</a></li>
+  <li>Packages available for JS frameworks
+    <ul>
+      <li><a href="https://www.polymer-project.org/1.0/toolbox/service-worker">Polymer</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="make-it-fast-server-side-rendering">Make it Fast: <strong>Server Side Rendering</strong></h2>
+
+<ul>
+  <li><a href="http://reactjs.org/docs/react-dom-server.html">react</a></li>
+  <li>Cloud Functions for Firebase
+    <ul>
+      <li>Cache with CDN</li>
+    </ul>
+  </li>
+  <li>Check your site with JS disabled
+    <ul>
+      <li>Simulates SEO viewing</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="make-it-engaging-web-app-manifest">Make it Engaging: <strong>Web App Manifest</strong></h2>
+
+<h3 id="implement-in-html-header">Implement in HTML Header</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">&lt;link rel="manifest" href="FILE.json"&gt;</code></li>
+</ul>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>Installable</li>
+  <li>Web push notification</li>
+  <li>Icon</li>
+</ul>
+
+<h3 id="references">References</h3>
+
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/Manifest">MDN Manifest API</a></li>
+  <li><a href="https://app-manifest.firebaseapp.com/">Web App Manifest Generator</a></li>
+</ul>
+
+      </section>
+
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
