@@ -45,7 +45,7 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 1. [Lean Native](./lean-native.md)
 1. [Standardizing JavaScript, Jory Burson, Bocoup](./standardizing-javascript.md)
 1. [Building an Innovation Engine Inside Your Org, Anton Hristov, Progress](./building-innovation-engine.md)
-1. Micro Apps – Breaking the Mobile App Monolith and Delivering Omnichannel Experiences –OR– Building Progressive (Web) Apps
-1. Machine Learning on the Go with TensofFlow.js
-1. Machine Powered Refactoring
-1. Machine Learning Capabilities for Mobile Apps
+1. [Micro Apps – Breaking the Mobile App Monolith and Delivering Omnichannel Experiences](./microapps.md)
+1. [Machine Learning on the Go with TensofFlow.js](./tensorflow.md)
+1. [Machine Powered Refactoring](./machine-refactoring.md)
+1. [Machine Learning Capabilities for Mobile Apps](./ml-for-mobile.md)
