@@ -6,6 +6,7 @@ Michael Solati
 ## Summary
 
 - Service Workers
+    - [Browser support](https://caniuse.com/#search=service%20workers)
 - Server Side Rendering
 - Web App Manifest
 - Set up prefetching
