@@ -7,7 +7,7 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 ## TakeAways
 
 <!-- - () ([ref](./evolution-of-js.md)) -->
-<!-- - () ([ref](./responsive-design.md)) -->
+- Design based on principles: **design patterns over page design** ([ref](./responsive-design.md))
 - If you need benefits of binary, there are tons of tools to make it less "scary" ([ref](./js-binary.md))
 - If native is important, use **NativeScript or React Native** ([ref](./one-one-three.md))
 - **ML Kit + Firebase** makes intro to ML easy ([ref](./human-vs-ai.md))
@@ -20,7 +20,7 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 - Encourage employee growth to benefit your company ([ref](./building-innovation-engine.md))
 - Save $$ and facilitate offline app use with service workers ([ref](./progressive-web-apps.md))
 - **Quick ML Kit setup** with  NativeScript/React Native ([ref](./tensorflow-demos.md))
-- **ASTs allow context-sensitive code refactoring** ([ref](./machine-refactoring.md))
+- Machine refactoring: **ASTs allow context-sensitive code refactoring** ([ref](./machine-refactoring.md))
  
 
 

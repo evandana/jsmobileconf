@@ -70,4 +70,9 @@ Amal Hussein, Bocoup
 
 - Ensure that your translations don't cause bugs
     - Use unit tests
-    - Be tight with you `codemon`s
+    - Be tight with you `codemod`s
+- Best use case: changing an API interface
+- How to distribute a `codemod`?
+    - Can be versioned
+    - Can have tests
+    - Make it part of your codebase
