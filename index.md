@@ -15,6 +15,7 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 - Many tools exist for handling various **offline** scenarios, but conflict resolution is hard (do it at data store layer)
 - Use **[gethuman.com](https://gethuman.com)** to skip wait times at call centers
 - For lean app SDLC, focus on real product with only core features (test and iterate!)
+- Guide the direction of JS: It's easy and cheap to **become a member of Ecma**
 
 
 ## ToDo
@@ -40,6 +41,8 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 1. [The FaaS and the Serverless](./faas-and-serverless.md)
 1. [Building Rich Offline Apps](./building-offline.md)
 1. [Lean Native](./lean-native.md)
+1. [Standardizing JavaScript, Jory Burson, Bocoup](./standardizing-javascript.md)
+1. [Building an Innovation Engine Inside Your Org, Anton Hristov, Progress](./building-innovation-engine.md)
 1. Micro Apps – Breaking the Mobile App Monolith and Delivering Omnichannel Experiences –OR– Building Progressive (Web) Apps
 1. Machine Learning on the Go with TensofFlow.js
 1. Machine Powered Refactoring
