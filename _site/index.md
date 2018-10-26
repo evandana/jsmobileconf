@@ -1,6 +1,6 @@
 # JS Mobile Conf Notes
 
-Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
+Host: [Progress Software](https://www.progress.com/) ([their apps](./progress.md))
 
 > "[jsMobileConf](https://jsmobileconf.com/) is a two-day, two-track, developer event focused on mobility and the cutting-edge JavaScript ecosystem."
 
@@ -18,23 +18,18 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 - For lean app SDLC, focus on real product with only core features (test and iterate!) ([ref](./lean-native.md))
 - Guide the direction of JS: It's easy and cheap to **become a member of Ecma** ([ref](./standardizing-javascript.md))
 - Encourage employee growth to benefit your company ([ref](./building-innovation-engine.md))
-- Save $$ and facilitate offline app use with service workers ([ref](./progressive-web-apps.md))
+- Save $$ and facilitate **offline app use with service workers** ([ref](./progressive-web-apps.md))
 - **Quick ML Kit setup** with  NativeScript/React Native ([ref](./tensorflow-demos.md))
 - Machine refactoring: **ASTs allow context-sensitive code refactoring** ([ref](./machine-refactoring.md))
  
 
-
 ## ToDo
 
-- [ ] Project with NativeScript
-- [ ] Project with Reacrt Native
+- [x] Project with [NativeScript](https://play.nativescript.org/?template=play-tsc&id=4IHGEI)
+- [-] Project with [React Native](https://codesandbox.io/s/q4qymyp2l6)
+    - Unable to add any components due to some parse/syntax error in every dependency. Unsure what's going on.
 - [ ] Project with ProtoBuffers
-
-
-## Projects
-
-- [w/ NativeScript](./nativescript.md) ([project](https://play.nativescript.org/?template=play-tsc&id=4IHGEI))
-- w/ React Native ([project](https://codesandbox.io/s/q4qymyp2l6))
+- [ ] Project with ML Kit
 
 
 ## Sessions
@@ -52,4 +47,4 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 1. [Building Progressive (web) Apps](./progressive-web-apps.md)
 1. [Machine Learning on the Go with TensofFlow.js](./tensorflow-demos.md)
 1. [Machine Powered Refactoring](./machine-refactoring.md)
-1. [Machine Learning Capabilities for Mobile Apps](./ml-for-mobile.md) coming soon
+1. [Machine Learning Capabilities for Mobile Apps](./ml-for-mobile.md)

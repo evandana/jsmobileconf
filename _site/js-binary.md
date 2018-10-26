@@ -4,6 +4,12 @@
 
 Kir, Firebase
 
+## Take aways
+
+- Use [protobuffers](https://developers.google.com/protocol-buffers/) for serializing structured data
+    - Protocol buffers are a language-neutral, platform-neutral extensible mechanism for serializing structured data.
+
+
 ## Binaries
 
 e.g. GIFs
