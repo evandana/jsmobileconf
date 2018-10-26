@@ -8,13 +8,13 @@ Host: [Progress Software](https://www.progress.com/) ([my notes](./progress.md))
 ## TakeAways
 
 - If you need benefits of binary, there are tons of tools to make it less "scary"
-- If native is important, use NativeScript or React Native
-- ML Kit + Firebase makes intro to ML easy
-- FaaS is just GCP Cloud Functions: make 'em simple and pure
-- Move static assets to CDN and route APIs to Faas to save $
-- Many offline tools exist for various scenarios, but conflict resolution is hard (do it at data store layer)
-- Use gethuman.com to skip wait times at call centers
-- For lean building, focus on real product with only core features (test and iterate!)
+- If native is important, use **NativeScript or React Native**
+- **ML Kit + Firebase** makes intro to ML easy
+- **FaaS is just GCP Cloud Functions**: make 'em simple and pure
+- Save $$ by moving **static assets to CDN** and route APIs to FaaS
+- Many tools exist for handling various **offline** scenarios, but conflict resolution is hard (do it at data store layer)
+- Use **[gethuman.com](https://gethuman.com)** to skip wait times at call centers
+- For lean app SDLC, focus on real product with only core features (test and iterate!)
 
 
 ## ToDo
