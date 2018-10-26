@@ -4,6 +4,7 @@ Host: [Progress Software](https://www.progress.com/) ([their apps](./progress.md
 
 > "[jsMobileConf](https://jsmobileconf.com/) is a two-day, two-track, developer event focused on mobility and the cutting-edge JavaScript ecosystem."
 
+
 ## TakeAways
 
 <!-- - () ([ref](./evolution-of-js.md)) -->
@@ -21,15 +22,15 @@ Host: [Progress Software](https://www.progress.com/) ([their apps](./progress.md
 - Save $$ and facilitate **offline app use with service workers** ([ref](./progressive-web-apps.md))
 - **Quick ML Kit setup** with  NativeScript/React Native ([ref](./tensorflow-demos.md))
 - Machine refactoring: **ASTs allow context-sensitive code refactoring** ([ref](./machine-refactoring.md))
+- Cloud ML tools allow you to create ML workflows then turn them into endpoints ([ref](ml-for-mobile.md))
  
 
 ## ToDo
 
-- [x] Project with [NativeScript](https://play.nativescript.org/?template=play-tsc&id=4IHGEI)
-- [-] Project with [React Native](https://codesandbox.io/s/q4qymyp2l6)
-    - Unable to add any components due to some parse/syntax error in every dependency. Unsure what's going on.
-- [ ] Project with ProtoBuffers
-- [ ] Project with ML Kit
+- [x] [Project](https://play.nativescript.org/?template=play-tsc&id=4IHGEI) with **NativeScript**
+- [x] [Project](https://codesandbox.io/s/q4qymyp2l6) with **React Native** (Unable to add any components due to some parse/syntax error in every dependency. Unsure what's going on.)
+- [ ] Project with **ProtoBuffers**
+- [ ] Project with **ML Kit**
 
 
 ## Sessions
