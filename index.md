@@ -5,6 +5,9 @@ Host: [Progress Software](https://www.progress.com/) ([their apps](./progress.md
 > "[jsMobileConf](https://jsmobileconf.com/) is a two-day, two-track, developer event focused on mobility and the cutting-edge JavaScript ecosystem."
 
 
+**[Official Presenter Slide Decks](https://github.com/rdlauer/jsmobileconf-2018-speakers)**
+
+
 ## TakeAways
 
 <!-- - () ([ref](./evolution-of-js.md)) -->
