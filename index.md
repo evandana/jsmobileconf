@@ -32,7 +32,7 @@ Host: [Progress Software](https://www.progress.com/) ([their apps](./progress.md
 
 - [x] [Project](https://play.nativescript.org/?template=play-tsc&id=4IHGEI) with **NativeScript**
 - [x] [Project](https://codesandbox.io/s/q4qymyp2l6) with **React Native** (Unable to add any components due to some parse/syntax error in every dependency. Unsure what's going on.)
-- [ ] Project with **ProtoBuffers**
+- [ ] Project with **ProtoBuffers** (separate effort)
 - [ ] Project with **ML Kit**
 
 
